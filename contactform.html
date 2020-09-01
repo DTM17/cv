@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1><strong>Contact me through:</strong></h1>
+    <p>Email: <em>dannymorison17@gmail.com</em></p>
+    <p><a href="https://twitter.com/DanielMorison0">Twitter</a></p>
+    <p><a href="https://www.linkedin.com/in/daniel-morison-198685129/">LinkedIn</a></p>
+    <hr>
+    <form action="mailto:info@danielmorison.com" method="post" enctype="text/plain"> <!-- need javascript for full functionality of the form element. enctype = stops gibberish appearing-->
+      <div class="form-example">
+        <label for="yourName">Input your name</label>
+        <input type="text" name="yourName" required />
+      </div>
+      <div class="form-example">
+        <label for="yourEmail">Input your email</label>
+        <input type="email" name="yourEmail" required /><br> <!-- email does basic validation-->
+        <label for="yourMessage">Your Message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea> <br>
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <hr />
+    <a href="index.html">Back</a>
+  </body>
+</html>
+

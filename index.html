@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- ! and then pressing tab creates boilerplate html code which is useful-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- meta elements give associated meta data to the html doc, tells browser that all text
+    in the web page is encoded with utf 8 (standard - includes all international symbols) encoding system - list of characters-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌍 My personal site 🌍</title>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <!-- Deprecated, just here temporarily until I learn CSS-->
+      <tr>
+        <td>
+          <img
+            src="images/circle-cropped.png"
+            alt="A blue circle that might one day be my CV Picture"
+          />
+          <!-- Google looks at alt text-->
+        </td>
+        <td>
+          <h1><strong>Daniel Morison</strong></h1>
+          <p>
+            <a href="https://www.linkedin.com/in/daniel-morison-198685129/"
+              >Web Developer</a
+            >
+          </p>
+          <p>
+            I'm an aspiring web developer and I really enjoy learning new
+            things, like languages and programming.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr size="3" noshade />
+    <!-- Adds a horizontal rule, 3 pixels high!-->
+    <h3>Educational Attainments</h3>
+    <ul>
+      <!-- unordered list-->
+      <li>Introduction to IT</li>
+      <li>HNC Computing</li>
+      <li>HND Software Engineering</li>
+      <li>BSc Computing and IT (in progress)</li>
+    </ul>
+
+    <h3>Work Experience</h3>
+    <table>
+      <!--Useful for organising tabular data, everything is aligned. Table rows can have multiple td - table data. Optional thead - table head.-->
+      <thead>
+        <!-- Placing header modules here instead of in the body is good because we can stylise/keep them on screen if user scrolls later, using CSS. Good practice in general-->
+        <tr>
+          <th>Date</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2011</td>
+          <td>Tesco Supermarket - Hot Deli Counter</td>
+        </tr>
+        <tr>
+          <td>2012-2013</td>
+          <td>
+            <a href="https://www.nescol.ac.uk/"
+              >Aberdeen College - Student IT Help Desk</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+    
+    <h3>Skills</h3>
+
+    <table cellspacing="10">
+      <tbody></tbody>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>😀</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>🤨</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>🙃</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+          <td>🙃</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <hr />
+
+    <a href="hobbies.html">My hobbies</a>
+    <br />
+    <a href="contactform.html">Contact me</a>
+    <!-- break lines don't need to be closed, check documentation. Can be used in tags-->
+  </body>
+</html>
